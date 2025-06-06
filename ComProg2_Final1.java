@@ -431,25 +431,23 @@ public class ComProg2_Final1 {
 
     //----------- FOR TRANSACTION HISTORY -----------
     private static void logTransaction(String username, ArrayList<String> itemNames, ArrayList<Integer> itemQuantities, ArrayList<Double> itemPrices, double total) {
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter("transactionss.txt", true))) {
+        String filePath = "c:\\Users\\Zeane Denel G. Capuy\\Documents\\NOTES\\2ND SEM\\ComProg 2\\codes\\transactionss.txt";
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath, true))) {
             String dateTime = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());
             writer.write("Date & Time: " + dateTime);
-                writer.newLine();
+            writer.newLine();
             writer.write("Cashier: " + username);
-                writer.newLine();
+            writer.newLine();
             writer.write("\nItems Purchased:");
-                writer.newLine();
-            
+            writer.newLine();
             for (int i = 0; i < itemNames.size(); i++) {
                 writer.write(itemNames.get(i) + " - Quantity: " + itemQuantities.get(i) + ", Price: Php " + itemPrices.get(i));
                 writer.newLine();
             }
-
             writer.write("\nTotal Amount: Php " + String.format("%.2f", total));
-                writer.newLine();
-                writer.write("-----------------------------------------------------------");
-                writer.newLine();
-
+            writer.newLine();
+            writer.write("-----------------------------------------------------------");
+            writer.newLine();
         } catch (IOException e) {
             System.out.println("An error occurred while logging the transaction: " + e.getMessage());
         }
