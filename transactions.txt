@@ -1,0 +1,55 @@
+Date & Time: 2025-06-06 14:21:24
+Cashier: Yashiro
+
+Items Purchased:
+Turon (Cheese) - Quantity: 2, Price: Php 12.0
+Turon (Ube) - Quantity: 2, Price: Php 12.0
+
+Total Amount: Php 48.00
+-----------------------------------------------------------
+Date & Time: 2025-06-06 14:29:22
+Cashier: Narutoo
+
+Items Purchased:
+Ramen - Quantity: 10, Price: Php 350.0
+Red Bean Soup - Quantity: 1, Price: Php 200.0
+Sandwich - Quantity: 2, Price: Php 150.0
+Steamed Buns - Quantity: 4, Price: Php 150.0
+
+Total Amount: Php 4600.00
+-----------------------------------------------------------
+Date & Time: 2025-06-06 14:30:22
+Cashier: Narutoo
+
+Items Purchased:
+Zenzai - Quantity: 1, Price: Php 770.0
+
+Total Amount: Php 770.00
+-----------------------------------------------------------
+Date & Time: 2025-06-06 14:33:20
+Cashier: Hinataa
+
+Items Purchased:
+Cinnamon Buns - Quantity: 2, Price: Php 600.0
+Ramen - Quantity: 4, Price: Php 350.0
+Sandwich - Quantity: 6, Price: Php 150.0
+Zenzai - Quantity: 1, Price: Php 770.0
+
+Total Amount: Php 4270.00
+-----------------------------------------------------------
+Date & Time: 2025-06-06 15:51:58
+Cashier: Yashiro
+
+Items Purchased:
+Smart C - Quantity: 1, Price: Php 35.0
+
+Total Amount: Php 35.00
+-----------------------------------------------------------
+Date & Time: 2025-06-06 16:16:29
+Cashier: Yashiro
+
+Items Purchased:
+Coke - Quantity: 1, Price: Php 22.0
+
+Total Amount: Php 22.00
+-----------------------------------------------------------
