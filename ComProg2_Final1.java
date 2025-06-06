@@ -3,7 +3,7 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.regex.Pattern;
 
-public class ComProg2_Finals {
+public class ComProg2_Final1 {
     private static final ArrayList<User> users = new ArrayList<>();
     private static final List<Transaction> transactionHistory = new ArrayList<>();
     private static final Scanner sc = new Scanner(System.in);
